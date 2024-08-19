@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Beaver.Domain\Beaver.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

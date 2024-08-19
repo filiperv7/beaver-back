@@ -11,15 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A5EEF23B-9D2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{ED4BC0C9-9118-4A7E-9045-1392FA1E8074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Domain", "Beaver.Domain\Beaver.Domain.csproj", "{CFC3A11D-26EE-4FDF-AAEF-9FB214F03919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beaver.Domain", "Beaver.Domain\Beaver.Domain.csproj", "{CFC3A11D-26EE-4FDF-AAEF-9FB214F03919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Application", "Beaver.Application\Beaver.Application.csproj", "{3FA1FFB6-35F9-4F7A-8AF9-55D455D2A9B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beaver.Application", "Beaver.Application\Beaver.Application.csproj", "{3FA1FFB6-35F9-4F7A-8AF9-55D455D2A9B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Infrastructure", "Beaver.Infrastructure\Beaver.Infrastructure.csproj", "{1BFF7D98-DFE8-4579-AC5B-A88B1458CEF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beaver.Infrastructure", "Beaver.Infrastructure\Beaver.Infrastructure.csproj", "{1BFF7D98-DFE8-4579-AC5B-A88B1458CEF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.API", "Beaver.API\Beaver.API.csproj", "{3DBD034F-1312-43D7-990D-502F901D6F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beaver.API", "Beaver.API\Beaver.API.csproj", "{3DBD034F-1312-43D7-990D-502F901D6F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Tests", "Beaver.Tests\Beaver.Tests.csproj", "{31017FF6-677A-47AC-8E45-C30833D0A188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beaver.Tests", "Beaver.Tests\Beaver.Tests.csproj", "{31017FF6-677A-47AC-8E45-C30833D0A188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
