@@ -1,0 +1,6 @@
+@Beaver.API_HostAddress = http://localhost:5226
+
+GET {{Beaver.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
