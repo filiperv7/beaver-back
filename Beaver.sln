@@ -3,9 +3,60 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{22EB09AE-8BA1-49BF-9425-A232A624434A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4EDECE98-4AA1-47EA-AE53-70F0EBEDACF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A5EEF23B-9D2C-4375-B1BC-40F85E137C8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{ED4BC0C9-9118-4A7E-9045-1392FA1E8074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Domain", "Beaver.Domain\Beaver.Domain.csproj", "{CFC3A11D-26EE-4FDF-AAEF-9FB214F03919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Application", "Beaver.Application\Beaver.Application.csproj", "{3FA1FFB6-35F9-4F7A-8AF9-55D455D2A9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Infrastructure", "Beaver.Infrastructure\Beaver.Infrastructure.csproj", "{1BFF7D98-DFE8-4579-AC5B-A88B1458CEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.API", "Beaver.API\Beaver.API.csproj", "{3DBD034F-1312-43D7-990D-502F901D6F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Tests", "Beaver.Tests\Beaver.Tests.csproj", "{31017FF6-677A-47AC-8E45-C30833D0A188}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFC3A11D-26EE-4FDF-AAEF-9FB214F03919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC3A11D-26EE-4FDF-AAEF-9FB214F03919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC3A11D-26EE-4FDF-AAEF-9FB214F03919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC3A11D-26EE-4FDF-AAEF-9FB214F03919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA1FFB6-35F9-4F7A-8AF9-55D455D2A9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA1FFB6-35F9-4F7A-8AF9-55D455D2A9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA1FFB6-35F9-4F7A-8AF9-55D455D2A9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA1FFB6-35F9-4F7A-8AF9-55D455D2A9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFF7D98-DFE8-4579-AC5B-A88B1458CEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFF7D98-DFE8-4579-AC5B-A88B1458CEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFF7D98-DFE8-4579-AC5B-A88B1458CEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFF7D98-DFE8-4579-AC5B-A88B1458CEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBD034F-1312-43D7-990D-502F901D6F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBD034F-1312-43D7-990D-502F901D6F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBD034F-1312-43D7-990D-502F901D6F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBD034F-1312-43D7-990D-502F901D6F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31017FF6-677A-47AC-8E45-C30833D0A188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31017FF6-677A-47AC-8E45-C30833D0A188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31017FF6-677A-47AC-8E45-C30833D0A188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31017FF6-677A-47AC-8E45-C30833D0A188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFC3A11D-26EE-4FDF-AAEF-9FB214F03919} = {22EB09AE-8BA1-49BF-9425-A232A624434A}
+		{3FA1FFB6-35F9-4F7A-8AF9-55D455D2A9B9} = {22EB09AE-8BA1-49BF-9425-A232A624434A}
+		{1BFF7D98-DFE8-4579-AC5B-A88B1458CEF0} = {4EDECE98-4AA1-47EA-AE53-70F0EBEDACF6}
+		{3DBD034F-1312-43D7-990D-502F901D6F3F} = {A5EEF23B-9D2C-4375-B1BC-40F85E137C8C}
+		{31017FF6-677A-47AC-8E45-C30833D0A188} = {ED4BC0C9-9118-4A7E-9045-1392FA1E8074}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70D80D79-93C0-4C77-A1E3-E43A3E50FB1C}
